@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,300&display=swap');
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2021/01/18/12/45/coffee-beans-5928036_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center center;
+}
+p {
+    text-align: center;
+font-family: 'karla';
+font-size: 20px;
+}
+.title {
+    font-family:'roboto';
+    color: crimson;
+    text-align: center;
+}
+#info{
+    align-items: center;
+    background-color:plum;
+    max-width:600px;
+    padding:20px;
+    height: 650px;
+    display:block;
+    margin: auto;
+    border-radius: 8px;
+    font-family: 'Open Sans';
+}
+input{
+background-color:whitesmoke;
+border-radius: 6px ;
+border: lightsalmon;
+padding: 12px 12px 12px 12px;
+box-sizing: border-box;
+width:100%;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.submit {
+    color: crimson;
+    background-color:whitesmoke;
+}
+label {
+    position: relative;
+right: -15px;
+    bottom: 28px;
+}
+.radio {
+    vertical-align: top;
+    margin-top:2px;
+}
+#radio1 {
+    position: relative;
+    right: 300px;
+}
+#radio2 {
+    position: relative;
+    right: 300px;
+}
+#radio3 {
+    position: relative;
+    right: 300px;
+}
