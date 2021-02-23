@@ -11,18 +11,23 @@
     <p>Kindly fill in your details below. Thank you</p>
     <form id="info">
         <div class="biodata">
-        First Name:<input type="text"> <br>
-        Last Name:<input type="text"> <br>
-        Age:<input type="number" min="18"> <br>
-        Email:<input type="email" required> <br>
-        Birthday:<input type="date"> <br>
+        First Name:<input class="input"  type="text"> <br>
+        Last Name:<input class="input"type="text"> <br>
+        Age:<input class="input" type="number" min="18"> <br>
+        Email:<input class="input" type="email" required> <br>
+        Birthday:<input class="input" type="date"> <br>
         </div>
-        Gender:
-        <br>
-        <div class="radio">
-        <input id="radio1" type="radio" name="gender"><label>Male</label> <br>
-        <input id="radio2" type="radio" name="gender"><label>Female</label> <br>
-        <input id="radio3" type="radio" name="gender"><label>Others</label> <br>
+        <div id="radio">
+            Gender: <br>
+            <div class="radio1">     
+                <input type="radio" name="gender"><label>Male</label>
+            </div>
+            <div class="radio2">
+                <input type="radio" name="gender"><label>Female</label>
+            </div>
+            <div class="radio3">
+                <input type="radio" name="gender"><label>Others</label>
+            </div>
         </div>
         <input class="submit" type="submit" value="Submit">
 

@@ -18,17 +18,22 @@ font-size: 20px;
     text-align: center;
 }
 #info{
-    align-items: center;
-    background-color:plum;
+    background-color:rgb(81, 90, 141);
     max-width:600px;
     padding:20px;
     height: 650px;
+    font-family: 'Open Sans';
+    margin: auto;
+    
+}
+.biodata {
     display:block;
     margin: auto;
     border-radius: 8px;
-    font-family: 'Open Sans';
+    
+    color: white;
 }
-input{
+.input{
 background-color:whitesmoke;
 border-radius: 6px ;
 border: lightsalmon;
@@ -41,25 +46,32 @@ margin-bottom: 10px;
 .submit {
     color: crimson;
     background-color:whitesmoke;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+input[type=submit]{
+    padding: 12px 12px 12px 12px; 
+    width:100%;
+margin-top: 10px;
+margin-bottom: 10px;
+background-color:whitesmoke;
+border-radius: 6px ;
+border: lightsalmon;
+box-sizing: border-box;
+}
+#radio {
+    width: 100%;
+    margin-left: 0;
+    vertical-align: left;
+    margin-top:10px;
+    color: white;
+
+}
+input[type=radio] {
+    background-color: black;
+    position: relative;
+    margin: 10px;     
 }
 label {
-    position: relative;
-right: -15px;
-    bottom: 28px;
-}
-.radio {
-    vertical-align: top;
-    margin-top:2px;
-}
-#radio1 {
-    position: relative;
-    right: 300px;
-}
-#radio2 {
-    position: relative;
-    right: 300px;
-}
-#radio3 {
-    position: relative;
-    right: 300px;
+    margin: 10px 0px 10px 0px;
 }
